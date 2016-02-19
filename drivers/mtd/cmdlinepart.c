@@ -155,7 +155,7 @@ static struct mtd_partition * newpart(char *s,
         /* test for options */
         if (strncmp(s, "ro", 2) == 0)
 	{
-		mask_flags |= MTD_WRITEABLE;
+//		mask_flags |= MTD_WRITEABLE;
 		s += 2;
         }
 
